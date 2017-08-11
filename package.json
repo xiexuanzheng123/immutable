@@ -1,0 +1,49 @@
+{
+  "name": "immutable",
+  "version": "1.0.0",
+  "description": "We should use immutable to manage our data in react-redux  project, for that it can improve the speed of project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiexuanzheng123/immutable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiexuanzheng123/immutable/issues"
+  },
+  "homepage": "https://github.com/xiexuanzheng123/immutable#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "immutable": "^3.8.1",
+    "postcss": "^6.0.8",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-custom-properties": "^6.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "postcss-modules-values": "^1.3.0",
+    "postcss-scss": "^1.0.2",
+    "precss": "^2.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
