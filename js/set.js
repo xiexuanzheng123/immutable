@@ -17,9 +17,9 @@ console.log($set5);//{1, 2, 3, 4, 5, 6}
 
 /****使用set的intersect方法来实现交集 */
 const $set6 = $set1.intersect($set4);
-console.log($set6); //{2, 3}
+console.log($set6); //{3, 2} 顺序?
 
 /****差集 */
 const $set7 = $set1.subtract($set4);
-console.log($set7);
+console.log($set7);//{1}
 
