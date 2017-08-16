@@ -65,7 +65,7 @@ module.exports = {
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Post Test',
+            title: 'Immutable Test',
             filename: 'build/immutable.html',
             template: './index.html',
             inject: 'body',

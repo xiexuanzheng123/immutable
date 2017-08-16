@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import '../js/map.js';
 
 class App extends React.Component {
     render() {
         return(
             <div>
-                <div className="test">test</div>
+                <div className="test">Immutable </div>
             </div>
         )
     }
