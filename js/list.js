@@ -36,5 +36,21 @@ console.log('$arr9', $arr9);//false
 const $arr10 = Immutable.List.of(1,2,3,4);
 console.log('$arr10', $arr10);
 
+const $arr11 = $arr1.pop();
+console.log('$arr11', $arr11);//返回除了最后一项的数据
+
+const $arr12 = $arr1.last();
+console.log('$arr12', $arr12);//获取最后一个元素
+
+const $arr13 = $arr1.push(4);//在后面追加元素
+console.log('$arr13', $arr13);//[1,2,3,4]
+
+const $arr14 = $arr1.unshift(0);//在前面插入 元素
+console.log('$arr14', $arr14);
+
+const $list = Immutable.List(['a', 'b', 'c']);
+const result = $list.update(2, value => value.toUpperCase());
+console.log('result', result);
+
 
 
